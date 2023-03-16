@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #d0d0d0ee;
+
+    ul {
+        margin-left: 10%;
+        a:hover {
+            opacity: 0.5;
+            transition: opacity 0.2s ease-in-out;
+            cursor: pointer;
+        }
+    }
+}

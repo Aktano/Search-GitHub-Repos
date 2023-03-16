@@ -1,0 +1,22 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(208, 208, 208, 0.9333333333);
+}
+body ul {
+  margin-left: 10%;
+}
+body ul a:hover {
+  opacity: 0.5;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+}
